@@ -38,5 +38,5 @@ if (!empty($_POST)) {
     }
     
 
-    $pdf->Output();
+    $pdf->Output('', 'registro.pdf');
 }
